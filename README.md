@@ -7,9 +7,11 @@ Our evaluation uses MapReduce applications from different domains, including dat
 Installation
 ------------
 * Get the soruces for Hadoop:
+
     svn co http://svn.apache.org/repos/asf/hadoop/common/tags/release-1.1.2 hadoop-1.1.2-src
     cd hadoop-1.1.2-src/
     cd ant jar
+
 * Get the ApproxHadoop code:
     cd hadoop-1.1.2-src/src/conrib/
     git clone git@github.com:goiri/ApproxHadoop.git
