@@ -6,7 +6,7 @@ Our evaluation uses MapReduce applications from different domains, including dat
 
 Installation
 ------------
-Get the soruces for Hadoop:
+Get the sources for Hadoop (this version is tested with Hadoop 1.1.2):
 
     svn co http://svn.apache.org/repos/asf/hadoop/common/tags/release-1.1.2 hadoop-1.1.2-src
     cd hadoop-1.1.2-src/
