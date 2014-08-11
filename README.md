@@ -29,3 +29,4 @@ Compile ApproxHadoop:
 
 Usage
 -----
+Take a look to runtest.sh for some examples.
