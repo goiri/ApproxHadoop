@@ -13,12 +13,17 @@ Installation
     cd ant jar
 
 * Get the ApproxHadoop code:
+
     cd hadoop-1.1.2-src/src/conrib/
     git clone git@github.com:goiri/ApproxHadoop.git
+    
 * Patch Hadoop with the approximation mechanisms:
+
     cd hadoop-1.1.2-src/
     patch -p0 -i src/contrib/ApproxHadoop/agileapproxhadoop2.patch
+    
 * Compile ApproxHadoop:
+
     cd hadoop-1.1.2-src/src/contrib/ApproxHadoop
     ant jar
 
