@@ -10,11 +10,11 @@ Get the sources for Hadoop (this version is tested with Hadoop 1.1.2):
 
     svn co http://svn.apache.org/repos/asf/hadoop/common/tags/release-1.1.2 hadoop-1.1.2-src
     cd hadoop-1.1.2-src/
-    cd ant jar
+    ant jar
 
 Get the ApproxHadoop code:
 
-    cd hadoop-1.1.2-src/src/conrib/
+    cd hadoop-1.1.2-src/src/contrib/
     git clone git@github.com:goiri/ApproxHadoop.git
     
 Patch Hadoop with the approximation mechanisms:
