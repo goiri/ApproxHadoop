@@ -30,3 +30,9 @@ Compile ApproxHadoop:
 Usage
 -----
 Take a look to runtest.sh for some examples.
+
+License
+-------
+This code is licensed under Matt Might's aptly-named CRAPL. The license is provided in CRAPL-LICENSE.txt in this repository. For more information on the CRAPL, see Matt Might's article:
+
+http://matt.might.net/articles/crapl/
